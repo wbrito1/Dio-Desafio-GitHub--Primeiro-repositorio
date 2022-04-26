@@ -24,4 +24,5 @@ Unix
 -git commit -m "" = criando um commit/ snapshot
 -git status = monitorar o status dos arquivos
 -mv arquivo ./repositorio = move arquivo ou repositorio para outro repositorio
+-git push origin main = adiconar na nuvem
 
