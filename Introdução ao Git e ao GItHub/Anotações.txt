@@ -16,9 +16,12 @@ Unix
 -git init = iniciar repostiorio do Git dentro da pasta
 -git add = mover arquivos, inicio ao versionamneto
 -git add * = adicona arquivos
+-git add. = adiciona todas as modificações pata Staged
 -git commit = criar um commit
 -git config --global user.email = criar email atrelado ao commit
 -git config --global user.name =  criar autor atrelado ao commit
--git commit -m "" = criando um commit
+-git config --global --unset user.email/user.name = para deletar e alterar email e nick name
+-git commit -m "" = criando um commit/ snapshot
 -git status = monitorar o status dos arquivos
 -mv arquivo ./repositorio = move arquivo ou repositorio para outro repositorio
+
